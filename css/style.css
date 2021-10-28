@@ -35,7 +35,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-image: linear-gradient(to bottom right, #a9b7c0,#a9b7c0);
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
@@ -56,7 +56,7 @@ body::before{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--green-yellow);
+    /*background-color: var(--green-yellow)*/
     z-index: -1;
     opacity: 0.12;
 }
@@ -141,7 +141,7 @@ section.fade-out{
     background-color: var(--white);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
+    background-color: #c7d8c6;
 }
 
 /* Buttons */
@@ -156,7 +156,7 @@ button{
     padding: 10px 28px;
     display: inline-block;
     border-radius: 30px;
-    color: var(--main-color);
+    color: #18293c;
     font-weight: 500;
     text-transform: capitalize;
     font-family: inherit;
@@ -175,7 +175,7 @@ button{
     top: 0;
     height: 100%;
     width:0%;
-    background-color: var(--main-color);
+    background-color: #18293c;
     z-index: -1;
     transition: width 0.3s ease;
 }
@@ -183,7 +183,7 @@ button{
     width: 100%;
 }
 .btn:hover{
-    color: var(--white);
+    color: #c7d8c6;
 }
 
 /* Animation Keyframes */
@@ -244,7 +244,7 @@ button{
 .bg-circles .circle-1{
     height: 60px;
     width: 60px;
-    background-color: var(--blue);
+    background-color:#c7d8c6;
     left: 5%;
     top: 10%;
     opacity: 0.3;
@@ -253,7 +253,7 @@ button{
 .bg-circles .circle-2{
     height: 80px;
     width: 80px;
-    background-color: var(--main-color);
+    background-color: #f8e9a1;
     left: 30%;
     top: 50%;
     opacity: 0.4;
@@ -270,7 +270,7 @@ button{
 .bg-circles .circle-4{
     height: 50px;
     width: 50px;
-    background-color: var(--orange);
+    background-color: #c7d8c6;
     top: 80%;
     left: -30px;
     opacity: 0.6;
@@ -322,12 +322,12 @@ button{
 .page-loader div:nth-child(1){
     height: 60px;
     width: 60px;
-    border-color: var(--main-color);
+    border-color: #c7d8c6;
 }
 .page-loader div:nth-child(2){
     height: 45px;
     width: 45px;
-    border-color: var(--blue);
+    border-color: #c7d8c6;
     animation-duration: 1.2s;
 }
 .page-loader div:nth-child(3){
@@ -377,7 +377,7 @@ button{
 .header .nav-toggler span{
     height: 2px;
     width: 24px;
-    background-color: var(--main-color);
+    background-color: #f8e9a1;
     position: relative;
     transition: background-color 0.3s ease;
 }
@@ -391,7 +391,7 @@ button{
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--main-color);
+    background-color: #f8e9a1;
     transition: all 0.3s ease;
 }
 .header .nav-toggler span::before{
@@ -472,7 +472,7 @@ button{
     width: 100%;
 }
 .header .nav-inner ul li a:hover{
-    color: var(--main-color);
+    color: #f8e9a1;
 }
 /* -----------------
  Home Section 
@@ -588,10 +588,10 @@ button{
 }
 .about-tabs .tab-item.active::before{
     width: 100%;
-    background-color: var(--main-color);
+    background-color: #18293c;
 }
 .about-tabs .tab-item.active{
-    color: var(--main-color);
+    color: #18293c;
     opacity: 1;
     cursor: auto;
 }
@@ -605,7 +605,7 @@ button{
     width: 1px;
     top: 0;
     left: 5px;
-    background-color: var(--main-color);
+    background-color: #18293c;
 }
 .about-text .tab-content{
     padding: 40px 0;
@@ -624,7 +624,7 @@ button{
     position: absolute;
     height: 11px;
     width: 11px;
-    background-color: var(--main-color);
+    background-color:#18293c ;
     left: 0;
     top: 16px;
     border-radius: 50%;
@@ -634,7 +634,7 @@ button{
 }
 .about-text .timeline-item .date{
     display: block;
-    color: var(--main-color);
+    color: #18293c;
     font-weight: 400;
     margin:0 0 10px;
 }
@@ -752,7 +752,7 @@ button{
 }
 .pp-body .general-info li a{
     text-transform: lowercase;
-    color: var(--main-color);
+    color: #24305e;
 }
 
 /* Contact Section */
@@ -810,14 +810,14 @@ button{
     width: 40px;
     background-color: var(--white-alpha-25);
     border:1px solid var(--white-alpha-40);
-    color: var(--main-color);
+    color: #f8e9a1;
     border-radius: 50%;
     margin:6px 4px 0 0;
     transition: all 0.3s ease;
 }
 .contact-info-item .social-links a:hover{
     color: var(--white);
-    background-color: var(--main-color);
+    background-color: #f8e9a1;
 }
 
 
